@@ -1,11 +1,18 @@
+body {
+  color: black;
+  background-color: gray;
+}
+
 #top {
   display: flex;
   flex-direction: row;
+  background-color: white;
 }
 
 #server {
   width: 50vw;
   border-bottom: 1px solid black;
+  padding: 15px;
 }
 
 #invite {
@@ -14,25 +21,39 @@
 }
 
 #pages {
-  wodth: 50vw;
+  display: flex;
+  flex-direction: row;
+  width: 50vw;
+  align-items: end;
 }
 
 #pages > span {
+  display: inline-block;
   border-bottom: 1px solid black;
+  width: 12vw;
+  text-align: center;
+  height: 30px;
 }
 
 #home #home-link {
+  border: 1px solid black;
   border-bottom: 0;
+  background-color: gray;
 }
 
 #links #links-link {
+  border: 1px solid black;
   border-bottom: 0;
+  background-color: gray;
 }
 
 #news #news-link {
+  border: 1px solid black;
   border-bottom: 0;
+  background-color: gray;
 }
 
 #staff #staff-link {
+  border: 1px solid black;
   border-bottom: 0;
 }
