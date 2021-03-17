@@ -37,7 +37,9 @@ body {
 }
 
 #pages > span {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   border-bottom: 1px solid white;
   width: 12.5vw;
   text-align: center;
