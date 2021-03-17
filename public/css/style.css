@@ -44,6 +44,7 @@ body {
   width: 12.5vw;
   text-align: center;
   height: 50%;
+  border-radius: 10px 10px 0 0;
 }
 
 #pages > span > a {
