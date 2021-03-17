@@ -1,3 +1,8 @@
+@font-face {
+  font-family: unbutton;
+  src: url("../fonts/unbutton/unbutton.ttf") format('truetype');
+}
+
 body {
   color: white;
   background-color: gray;
