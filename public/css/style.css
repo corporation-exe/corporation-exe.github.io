@@ -6,3 +6,23 @@
   padding: 10px 20px;
   background-color: orange;
 }
+
+#pages > span {
+  border-bottom: 1px solid black;
+}
+
+#home #home-link {
+  border-bottom: 0;
+}
+
+#links #links-link {
+  border-bottom: 0;
+}
+
+#news #news-link {
+  border-bottom: 0;
+}
+
+#staff #staff-link {
+  border-bottom: 0;
+}
