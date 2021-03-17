@@ -19,11 +19,11 @@ body {
 #server {
   width: 50vw;
   border-bottom: 1px solid white;
-  padding: 20px;
+  padding: 45px;
 }
 
 #invite {
-  padding: 15px 30px;
+  padding: 20px 40px;
   background-color: orange;
   border-radius: 10px;
 }
