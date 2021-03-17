@@ -1,0 +1,8 @@
+#server {
+  border-bottom: 1px solid black;
+}
+
+#invite {
+  padding: 10px 20px;
+  background-color: orange;
+}
