@@ -1,10 +1,20 @@
+#top {
+  display: flex;
+  flex-direction: row;
+}
+
 #server {
+  width: 50vw;
   border-bottom: 1px solid black;
 }
 
 #invite {
   padding: 10px 20px;
   background-color: orange;
+}
+
+#pages {
+  wodth: 50vw;
 }
 
 #pages > span {
