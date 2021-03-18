@@ -23,7 +23,7 @@ body {
 
 #server {
   width: 50vw;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #FFFF00;
   padding: 45px;
 }
 
@@ -45,7 +45,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #FFFF00;
   width: 12.5vw;
   text-align: center;
   height: 50%;
@@ -56,43 +56,13 @@ body {
   color: white;
 }
 
-#home #home-link {
-  border: 1px solid white;
-  border-bottom: 0;
-  background-color: gray;
-}
-
-#home #home-link a {
-  color: black
-}
-
-#links #links-link {
-  border: 1px solid white;
+#home #home-link, #links #links-link, #news #news-link, #staff #staff-link {
+  border: 1px solid #FFFF00;
   border-bottom: 0;
   background-color: gray;
   color: black;
 }
 
-#links #links-link a {
-  color: black
-}
-
-#news #news-link {
-  border: 1px solid white;
-  border-bottom: 0;
-  background-color: gray;
-}
-
-#news #news-link a {
-  color: black
-}
-
-#staff #staff-link {
-  border: 1px solid white;
-  border-bottom: 0;
-  background-color: grey;
-}
-
-#staff #home-staff a {
+#home #home-link a, #links #links-link a, #news #news-link a, #staff #home-staff a {
   color: black
 }
